@@ -15,19 +15,17 @@ function App() {
   return (  
    
     <div className="App">
-       <BrowserRouter>
+   <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />}>
           <Route index element={<Home />} />
-       </Route>
+          <Route path="Home" element={<Home />} />
+          <Route path="contact" element={<Home />} />
+          <Route path="*" element={<Home />} />
+        </Route>
       </Routes>
     </BrowserRouter>
-     <div className="card">
-        <p>
-           Welcome in my portfolio page ! 
-        </p>
-      </div>
-      <button onClick={shoot}>Take the shot!</button>
+
     </div>
     
   ) 
