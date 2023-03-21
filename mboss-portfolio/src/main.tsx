@@ -1,18 +1,22 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App'
-import Header from './Header'
-import Footer from './Footer'
-import Nav from './Nav'
-import './index.css'
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+import Blogs from "./pages/Blogs";
 
 
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <React.StrictMode>
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="blogs" element={<Blogs />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
-    <Header/>
-    <App/>
-    <Footer/>
-  </React.StrictMode>,
-)
-
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
