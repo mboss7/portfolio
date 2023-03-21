@@ -1,5 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
-import '../Nav.css'
+import '../Style.css'
 
 const Layout = () => {
   return (
@@ -10,21 +10,22 @@ const Layout = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/blogs">Blogs</Link>
-          </li>
-          <li>
-            <Link to="/Home">Contact</Link>
+            <Link to="Contact">Contact</Link>
           </li>
         </ul>
       </nav>
-
       <Outlet />
-  
+
+      <div className="Header">
+        <h1>M4tt Portfolio</h1>
+      </div>
      <div className="Footer">
         <p>
          Made with passion by M4tt 
         </p>
       </div>
+
+      
     </>
   )
 };
