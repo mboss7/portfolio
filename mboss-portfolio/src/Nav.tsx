@@ -5,14 +5,17 @@ function Nav() {
     return (
     <nav>
         <ul>
-            <li>
-                <a href="#">My Resume</a>
+        <li>
+                <a href="#">Home</a>
             </li>
             <li>
-                <a href="#">My Experiences</a>
+                <a href="#">Resume</a>
             </li>
             <li>
-                <a href="#">My Projects</a>
+                <a href="#">Experiences</a>
+            </li>
+            <li>
+                <a href="#">Projects</a>
             </li>
             <li>
                 <a href="#">Contacts</a>

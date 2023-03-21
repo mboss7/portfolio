@@ -6,6 +6,7 @@ import Footer from './Footer'
 import Nav from './Nav'
 import './index.css'
 
+
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <Nav/>
