@@ -6,10 +6,14 @@ ul {
     overflow: hidden;
     background-color: #333;
     text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
   }
   
   li {
     float: left;
+    
   }
   
   li a {
@@ -18,10 +22,12 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: #666;
   }
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
+    color: aqua;
     background-color: #111;
   }
 
@@ -55,6 +61,11 @@ ul {
     width: 100%;
     height: 70px;
     color: #353535; 
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+  div {
+    font-family: "Lucida Console", "Courier New", monospace;
   }
   
   h1 {
@@ -63,6 +74,7 @@ ul {
     width: 100%;
     height: 70px;
     color: #353535; 
+    font-family: "Lucida Console", "Courier New", monospace;
   }
   
   @keyframes logo-spin {

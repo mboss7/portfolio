@@ -21,7 +21,7 @@ const Layout = () => {
       </div>
      <div className="Footer">
         <p>
-         Made with passion by M4tt 
+        Made with passion in React on Firebase by M4tt 
         </p>
       </div>
 
