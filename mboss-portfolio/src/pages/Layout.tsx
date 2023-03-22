@@ -25,9 +25,7 @@ const Layout = () => {
       </nav>
       <Outlet />
 
-      <div className="Header">
-        <h1>M4tt Portfolio</h1>
-      </div>
+      
      <div className="Footer">
         <p>
         Made with passion in React on Firebase by M4tt 
