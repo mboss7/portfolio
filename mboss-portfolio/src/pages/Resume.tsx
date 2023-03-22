@@ -1,7 +1,7 @@
 import '../Style.css'
 
 const Resume = () => {
-    return <h1>RESUME</h1>
+    return <h1>My Resume</h1>
   };
   
   export default Resume

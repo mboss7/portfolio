@@ -1,7 +1,12 @@
 import '../Style.css'
 
 const Projects = () => {
-    return <h1>PROJECTS</h1>
+    return (
+    <div>
+      <h1>My Projects</h1>
+      <p></p>
+    </div>
+    )
   };
   
   export default Projects
