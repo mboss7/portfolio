@@ -6,25 +6,23 @@ import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 import Experiences from "./pages/Experiences";
 import Projects from "./pages/Projects";
-import "./Style.css"
 
-export default function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="resume" element={<Resume />} />
-          <Route path="experiences" element={<Experiences />} />
-          <Route path="projects" element={<Projects />} />
-          <Route path="contact" element={<Contact />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  );
-}
+
+const app =    
+<BrowserRouter>
+<Routes>
+  <Route path="/" element={<Layout />}>
+    <Route index element={<Home />} />
+    <Route path="resume" element={<Resume />} />
+    <Route path="experiences" element={<Experiences />} />
+    <Route path="projects" element={<Projects />} />
+    <Route path="contact" element={<Contact />} />
+  </Route>
+</Routes>
+</BrowserRouter>;
+
 
 const domroot = document.getElementById('root') as Element;
 
 const root = ReactDOM.createRoot(domroot);
-root.render(<App />);
+root.render(app);
