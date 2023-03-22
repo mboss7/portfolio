@@ -23,17 +23,8 @@ const Layout = () => {
           </li>
         </ul>
       </nav>
-      <Outlet />
-
-      
-     <div className="Footer">
-        <p>
-        Made with passion in React on Firebase by M4tt 
-        </p>
-      </div>
-
-      
-    </>
+      <Outlet /> 
+      </>
   )
 };
 

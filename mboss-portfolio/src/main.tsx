@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 import Experiences from "./pages/Experiences";
 import Projects from "./pages/Projects";
+import "./Style.css"
 
 export default function App() {
   return (
