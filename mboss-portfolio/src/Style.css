@@ -54,11 +54,7 @@ ul {
 
   div {
     font-family: "Lucida Console", "Courier New", monospace;
-    position: absolute;     
-    text-align: center;    
-     
-    width: 100%;
-  }
+   }
   
   h1 {
     font-size: 3.2em;
@@ -71,7 +67,7 @@ ul {
 
   
   
-  div.footer {
+  .footer {
     position: absolute;     
     text-align: center;    
     bottom: 0;
