@@ -8,6 +8,7 @@ const Home = () => {
 
       The objective is to present my professional skills
       </p>
+     
     
     </div>)
   };
