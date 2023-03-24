@@ -24,8 +24,6 @@ const Layout = () => {
         </ul>
       </nav>
       <Outlet /> 
-
-      <footer>Test</footer>
     </>
   )
 };

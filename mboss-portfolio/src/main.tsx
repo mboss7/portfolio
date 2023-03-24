@@ -6,9 +6,10 @@ import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 import Experiences from "./pages/Experiences";
 import Projects from "./pages/Projects";
+import "./Style.css";
 
-
-const app =    
+const app =
+<>    
 <BrowserRouter>
 <Routes>
   <Route path="/" element={<Layout />}>
@@ -19,7 +20,9 @@ const app =
     <Route path="contact" element={<Contact />} />
   </Route>
 </Routes>
-</BrowserRouter>;
+</BrowserRouter>
+<footer>test</footer>
+</>;
 
 
 const domroot = document.getElementById('root') as Element;
